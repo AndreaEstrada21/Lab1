@@ -4,28 +4,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title>Create</title>
+    <title>Delete</title>
     <link href="C:\Users\Andrea\Desktop\Lab1\Content\Site.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
- <form action="/Video/Create" method="post">
+ <form action="/Video/Delete" method="post">
     <fieldset>   
-    <legend>Registro videos</legend>
+    <legend>Eliminación videos</legend>
     <label for = "idVideo">idVideo</label>
     <input type = "text" name = "idVideo" />
-
-    <label for = "titulo">titulo</label>
-    <input type = "text" name = "titulo" />
-
-    <label for = "reproducciones">reproducciones</label>
-    <input type = "text" name = "reproducciones" />
-
-    <label for = "url">url</label>
-    <input type = "text" name = "url" />
-
-    <input type = "submit" value = "Registrar" />
+    <input type = "submit" value = "Eliminar" />
     </fieldset>
     </form>
 </body>
 </html>
-

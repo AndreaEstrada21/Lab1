@@ -7,10 +7,14 @@
     <title>Index</title>
 </head>
 <body>
-    <div>
-        <h1>Opciones</h1>
+        <h1>Menú Principal Videos</h1>
         <hr />
-        <a href="/Video/Create">Registro de videos</a>
-    </div>
+        <a href="/Video/Create">Registrar</a>
+        <br />
+        <a href="/Video/Delete">Eliminar por clave</a>
+        <br />
+        <a href="/Video/DeleteRepro">Eliminar por número reproducciones</a>
+        <br />
+        <a href="/Video/Update">Modificar</a>
 </body>
 </html>
